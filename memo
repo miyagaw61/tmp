@@ -20,7 +20,7 @@ set guifont=MS_Gothic:h10
 "全角文字の設定
 set guifontwide=MS_Gothic:h10
 "挿入モード時のデフォルトモード
-nnoremap <silent>e :set iminsert=1<CR>:set imsearch=-1<CR>
+nnoremap <leader>e :set iminsert=1<CR>:set imsearch=-1<CR>
 "横幅MAX
 set columns=600
 "縦幅MAX
