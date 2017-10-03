@@ -25,3 +25,7 @@ nnoremap <leader>e :set iminsert=1<CR>:set imsearch=-1<CR>
 set columns=600
 "縦幅MAX
 set lines=300
+
+vim.exeをvim.exe.bakにリネーム
+gvim.exeをコピーして貼り付け、vim.exeにリネーム
+同様にgvim.exeをコピーして貼り付け、vi.exeにリネーム
