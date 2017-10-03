@@ -1,4 +1,4 @@
-windows‚Å‚Ìvim‚Ìg—p•û–@
+windowsã§ã®vimã®ä½¿ç”¨æ–¹æ³•
 
 chocolatey install vim
 cd $HOME
@@ -8,24 +8,24 @@ mkdir bundle
 git clone git://github.com/Shougo/neobundle.vim
 cd $HOME
 vim .vimrc
-#vimrc‚ğƒRƒs[
-#Å‰º•”‚ÉˆÈ‰º‚ğ’Ç‹L
+#vimrcã‚’ã‚³ãƒ”ãƒ¼
+#æœ€ä¸‹éƒ¨ã«ä»¥ä¸‹ã‚’è¿½è¨˜
 
 "Windows
 nnoremap <silent>yy "*yy
 nnoremap <silent>p "*p
 colorscheme kalisi
-"”¼Šp•¶š‚Ìİ’è
+"åŠè§’æ–‡å­—ã®è¨­å®š
 set guifont=MS_Gothic:h10
-"‘SŠp•¶š‚Ìİ’è
+"å…¨è§’æ–‡å­—ã®è¨­å®š
 set guifontwide=MS_Gothic:h10
-"‘}“üƒ‚[ƒh‚ÌƒfƒtƒHƒ‹ƒgƒ‚[ƒh
+"æŒ¿å…¥ãƒ¢ãƒ¼ãƒ‰æ™‚ã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆãƒ¢ãƒ¼ãƒ‰
 nnoremap <leader>e :set iminsert=1<CR>:set imsearch=-1<CR>
-"‰¡•MAX
+"æ¨ªå¹…MAX
 set columns=600
-"c•MAX
+"ç¸¦å¹…MAX
 set lines=300
 
-vim.exe‚ğvim.exe.bak‚ÉƒŠƒl[ƒ€
-gvim.exe‚ğƒRƒs[‚µ‚Ä“\‚è•t‚¯Avim.exe‚ÉƒŠƒl[ƒ€
-“¯—l‚Égvim.exe‚ğƒRƒs[‚µ‚Ä“\‚è•t‚¯Avi.exe‚ÉƒŠƒl[ƒ€
+vim.exeã‚’vim.exe.bakã«ãƒªãƒãƒ¼ãƒ 
+gvim.exeã‚’ã‚³ãƒ”ãƒ¼ã—ã¦è²¼ã‚Šä»˜ã‘ã€vim.exeã«ãƒªãƒãƒ¼ãƒ 
+åŒæ§˜ã«gvim.exeã‚’ã‚³ãƒ”ãƒ¼ã—ã¦è²¼ã‚Šä»˜ã‘ã€vi.exeã«ãƒªãƒãƒ¼ãƒ 
