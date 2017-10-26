@@ -1,9 +1,8 @@
 # hogehoge
 
-* fugafuga[^1]
+* fugafuga[1](#1)
 
-piyopiyo[^2]
+piyopiyo[^2](#2)
 
-[^1]: foo
-
-[^2]: bar
+<a name="1">foo
+<a name="2">bar
