@@ -1,6 +1,9 @@
 # hogehoge
 
 * fugafuga[^1]
-piyopiyo  
 
-[^1]: piyopiyo
+piyopiyo[^2]
+
+[^1]: foo
+
+[^2]: bar
