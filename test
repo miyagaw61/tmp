@@ -1,0 +1,3 @@
+from hoge import *
+!hoge
+2,3;5
